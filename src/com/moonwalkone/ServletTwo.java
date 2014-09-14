@@ -41,6 +41,7 @@ public class ServletTwo extends javax.servlet.http.HttpServlet {
                 RequestDispatcher view = request.getRequestDispatcher("home.jsp");
                 view.forward(request,response);
             }
+            
             else
                 response.getWriter().println("Insert Unsuccessful");
         }catch (Exception e){
