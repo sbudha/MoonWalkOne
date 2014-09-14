@@ -1,0 +1,69 @@
+#wrapper{
+    height: 600px;
+    width: 1340px;
+    background-color: darkgrey;
+}
+
+.header{
+    height: 106px;
+    width: 1340px;
+}
+
+.content ,.content1,.content2{
+    height: 420px;
+    width: 1340px;
+}
+
+.footer{
+    padding: 0;
+    bottom: 0;
+    clear: both;
+    position: absolute;
+}
+
+.content input{
+    height: 200px;
+    width: 320px;
+    margin-top: 111px;
+    margin-left: 227px;
+}
+
+.content1 form{
+    width: 374px;
+    height: 227px;
+    margin-left: 489px;
+    margin-top: 130px;
+    background-color: aliceblue;
+}
+
+.content1 form input,h3{
+    font-size: 16px;
+    margin-left: 28px;
+}
+
+.content2 form{
+    width: 608px;
+    height: 427px;
+    margin-left: 372px;
+    margin-top: 34px;
+    background-color: aliceblue;
+}
+.content2 input, h3{
+    font-size: 16px;
+    margin-left: 92px;
+}
+
+.content input{
+    font-size: 24px;
+}
+
+.content3{
+    height: 420px;
+    width: 1340px;
+    padding: 0;
+    clear: both;
+}
+
+.content3 h3{
+    text-align: right;
+}
